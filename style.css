@@ -1,0 +1,29 @@
+body {
+  background-color: darkslategrey;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  box-sizing: border-box;
+}
+
+img:hover {
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+
+#posterwall {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 5px;
+  list-style: none;
+}
